@@ -5,16 +5,16 @@ public class Book {
 	private String status;
 
 	public Book(String name, String status) {
-		this.name = name;
-		this.status = status;
+	     this.name = name;
+	     this.status = status;
 	}
 
 	public String getBookName() {
-		return name;
+	     return name;
 	}
 
 	public String getBookStatus() {
-		return status;
+	     return status;
 	}
 
 }
