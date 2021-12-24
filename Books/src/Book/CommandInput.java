@@ -8,9 +8,10 @@ public class CommandInput {
 		String res = "";
 		Scanner sc = new Scanner(System.in);
 		if (sc.hasNext()) {
-			res = sc.nextLine();
+		 res = sc.nextLine();
 		}
-		return res;
+		
+		 return res;
 	}
 
 }
