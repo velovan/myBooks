@@ -66,7 +66,6 @@ public class Menu {
 	}
 
 	public String ReserveInvalidPrintContent() {
-
 		Information information = new Information();
 		return information.getInvalidBookInformation();
 	}
@@ -104,6 +103,7 @@ public class Menu {
 		} else {
 			menu = SelectInvalidMenuOptionPrintContent();
 		}
+		
 		return menu;
 	}
 
