@@ -11,6 +11,7 @@ public class MovieList {
 	}
 
 	public ArrayList<Movie> createMovieList() {
+		
 		movieList.add(new Movie("Pride and prejudice", "Joe Write", "10"));
 		movieList.add(new Movie("Love Story", "Arthur Hiller", "9"));
 		movieList.add(new Movie("Breakfast At Tiffany‘s", "Blake Edwards", "8"));
