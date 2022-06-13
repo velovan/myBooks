@@ -2,16 +2,16 @@ package Book;
 
 import java.util.ArrayList;
 
-public class BookList {
+public class BookList{
 
 	private ArrayList<Book> bookList;
 
-	public BookList() {
+	public BookList(){
 		
 	     bookList = new ArrayList<Book>();
 	}
 
-	public ArrayList<Book> createBookList() {
+	public ArrayList<Book> createBookList(){
 	     bookList.add(new Book("The_Hobbit", "valid"));
 	     bookList.add(new Book("Anne_of_Green_Gables", "valid"));
 	     bookList.add(new Book("Le_Petit_Prince", "valid"));
@@ -23,11 +23,11 @@ public class BookList {
 	     return bookList;
 	}
 
-	public String getEachBookName(int n) {
+	public String getEachBookName(int n){
 	     return bookList.get(n).getBookName();
 	}
 
-	public String getEachBookStatus(int s) {
+	public String getEachBookStatus(int s){
 	     return bookList.get(s).getBookStatus();
 	}
 
