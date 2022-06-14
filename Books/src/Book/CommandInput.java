@@ -2,15 +2,14 @@ package Book;
 
 import java.util.*;
 
-public class CommandInput {
+public class CommandInput{
 
-	public String readInput() {
+	public String readInput(){
 		String res = "";
 		Scanner sc = new Scanner(System.in);
-		if (sc.hasNext()) {
+		if (sc.hasNext()){
 		 res = sc.nextLine();
 		}
-		
 		 return res;
 	}
 
