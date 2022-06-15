@@ -3,23 +3,23 @@ package Book;
 public class Information {
 
 	public String getWelcomeInformation(){
-		return " *** Welcome ***";
+	       return " *** Welcome ***";
 	}
 
 	public String getInvalidOptionInformation(){
-		return "Select a valid option!!\n";
+	       return "Select a valid option!!\n";
 	}
 
 	public String getValidBookInformation(){
-		return "Thank You! Enjoy the book.\n";
+               return "Thank You! Enjoy the book.\n";
 	}
 
 	public String getInvalidBookInformation(){
-		return "Sorry we don't have that book yet.\n";
+	       return "Sorry we don't have that book yet.\n";
 	}
 
 	public String getCheckLibNumInformation(){
-		return "Please talk to Librarian. Thank you.\n";
+	       return "Please talk to Librarian. Thank you.\n";
 	}
 
 }
