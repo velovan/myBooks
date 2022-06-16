@@ -2,7 +2,7 @@ package Book;
 
 public class Init {
 
-	public void initOutput() {
+	public void initOutput(){
 	     Information info = new Information();
 	     Menu menu = new Menu();
 	     String[] createMenu = menu.createMenuOptions();
@@ -10,4 +10,5 @@ public class Init {
 	     String output = info.getWelcomeInformation() + "\n"  + listMenu;
 	     System.out.println(output);
 	}
+	
 }
