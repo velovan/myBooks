@@ -2,7 +2,7 @@ package Book;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		Init init = new Init();
 		init.initOutput();
 		while(true){
@@ -13,5 +13,6 @@ public class Main {
 		   System.out.println(output);
 		}
 	}
+	
 
 }
