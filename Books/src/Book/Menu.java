@@ -26,16 +26,16 @@ public class Menu {
 
 	public String listMenuOptionsContent(String[] menuOptions) {
 		menuOptionsContent = menuOptions[0] + "  List all menu options\n" + menuOptions[1] + "  View all books\n"
-				+ menuOptions[2].substring(0, 7) + " [--bookName]  Reserve one book called bookName\n" + menuOptions[3]
-				+ "  Check your library number\n" + menuOptions[4] + "View all movie";
+			+ menuOptions[2].substring(0, 7) + " [--bookName]  Reserve one book called bookName\n" + menuOptions[3]
+			+ "  Check your library number\n" + menuOptions[4] + "View all movie";
 		return menuOptionsContent;
 	}
 
 	public String helpPrintContent(String[] menuOptions) {
 		String helpPrintContent;
 		helpPrintContent = menuOptions[1] + "  View all books\n" + menuOptions[2].substring(0, 7)
-				+ " [--bookName]  Reserve one book called bookName\n" + menuOptions[3] + "  Check your library number\n"
-				+ menuOptions[4] + "View all movie";
+			+ " [--bookName]  Reserve one book called bookName\n" + menuOptions[3] + "  Check your library number\n"
+			+ menuOptions[4] + "View all movie";
 		return helpPrintContent;
 	}
 
