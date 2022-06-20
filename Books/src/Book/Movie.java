@@ -2,35 +2,35 @@ package Book;
 
 import java.lang.*;
 
-public class Movie {
+public class Movie{
 
 	private String movieName;
 	private String movieDirector;
 	private String rate;
  
-	public Movie(String movieName, String movieDirector, String rate) {
+	public Movie(String movieName, String movieDirector, String rate){
 		this.movieName = movieName;
 		this.movieDirector = movieDirector;
 		this.rate = rate;
 	}
 
-	public String getMovieName() {
+	public String getMovieName(){
 		return movieName;
 	}
 
-	public String getMovieDirector() {
+	public String getMovieDirector(){
 		return movieDirector;
 	}
 
-	public String getMovieRate() {
+	public String getMovieRate(){
 		return rate;
 	}
 
-	public String printOneMovie() {
+	public String printOneMovie(){
 		StringBuffer space = new StringBuffer();
 		String space1 = "";
 		String space2 = "";
-		for (int i = 0; i < 26 - getMovieName().length(); i++) {
+		for (int i = 0; i < 26 - getMovieName().length(); i++){
 		    space.append(" ");
 		}
 		space1 = space.toString();
