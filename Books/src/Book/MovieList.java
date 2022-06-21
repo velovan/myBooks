@@ -2,15 +2,15 @@ package Book;
 
 import java.util.ArrayList;
 
-public class MovieList {
+public class MovieList{
 
 	private ArrayList<Movie> movieList;
 
-	public MovieList() {
+	public MovieList(){
 		movieList = new ArrayList<Movie>();
 	}
 
-	public ArrayList<Movie> createMovieList() {
+	public ArrayList<Movie> createMovieList(){
 		
 		movieList.add(new Movie("Pride and prejudice", "Joe Write", "10"));
 		movieList.add(new Movie("Love Story", "Arthur Hiller", "9"));
@@ -31,15 +31,15 @@ public class MovieList {
 		return movieList;
 	}
 
-	public String getEachMovieName(int n) {
+	public String getEachMovieName(int n){
 		return movieList.get(n).getMovieName();
 	}
 
-	public String getEachMovieDirector(int d) {
+	public String getEachMovieDirector(int d){
 		return movieList.get(d).getMovieDirector();
 	}
 
-	public String getEachMovieRate(int r) {
+	public String getEachMovieRate(int r){
 		return movieList.get(r).getMovieRate();
 	}
 }
