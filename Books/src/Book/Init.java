@@ -1,6 +1,6 @@
 package Book;
 
-public class Init {
+public class Init{
 
 	public void initOutput(){
 	     Information info = new Information();
