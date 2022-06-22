@@ -79,12 +79,12 @@ public class Menu{
 		String menu = "";
 		ArrayList<Book> books = bookList.createBookList();
 		ArrayList<Movie> movies = movieList.createMovieList();
-		if (menuOptions.equals("help")) {
+		if (menuOptions.equals("help")){
 			menu = helpPrintContent(createMenuOptions());
 		} else if (menuOptions.equals("book")){
 			menu = printBook(books);
 		} else if (menuOptions.matches("reserve\\s(.*)")){
-			for (int i = 0; i < books.size(); i++) {
+			for (int i = 0; i < books.size(); i++){
 				if (menuOptions.split("\\s")[1].equals(books.get(i).getBookName())){
 					if (books.get(i).getBookStatus().equals("valid")){
 						menu = ReserveValidPrintContent();
@@ -92,13 +92,13 @@ public class Menu{
 						menu = ReserveInvalidPrintContent();
 					}
 					break;
-				} else {
+				}else{
 					menu = ReserveInvalidPrintContent();
 				}
 			}
-		} else if (menuOptions.equals("movie")){
+		} else if(menuOptions.equals("movie")){
 			menu = printMovie(movies);
-		} else if (menuOptions.equals("chek")){
+		} else if(menuOptions.equals("chek")){
 			menu = CheckPrintContent();
 		} else {
 			menu = SelectInvalidMenuOptionPrintContent();
