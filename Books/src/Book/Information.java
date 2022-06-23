@@ -1,6 +1,6 @@
 package Book;
 
-public class Information {
+public class Information{
 
 	public String getWelcomeInformation(){
 	       return " *** Welcome ***";
