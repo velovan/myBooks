@@ -35,7 +35,7 @@ public class Movie{
 		}
 		space1 = space.toString();
 		space.delete(0, space.length());
-		for (int i = 0; i < 20 - getMovieDirector().length(); i++) {
+		for (int i = 0; i < 20 - getMovieDirector().length(); i++){
 		    space.append(" ");
 		}
 		space2 = space.toString();
