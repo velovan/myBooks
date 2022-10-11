@@ -6,12 +6,11 @@ public class BookList{
 
 	private ArrayList<Book> bookList;
 
-	public BookList(){
-		
+	public BookList() {
 	     bookList = new ArrayList<Book>();
 	}
 
-	public ArrayList<Book> createBookList(){
+	public ArrayList<Book> createBookList() {
 	     bookList.add(new Book("The_Hobbit", "valid"));
 	     bookList.add(new Book("Anne_of_Green_Gables", "valid"));
 	     bookList.add(new Book("Le_Petit_Prince", "valid"));
